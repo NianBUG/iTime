@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">iTime</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="home">首页</string>
+    <string name="biaoqian">标签</string>
+    <string name="xiaobujian">小部件</string>
+    <string name="tools">工具</string>
+    <string name="share">分享</string>
+    <string name="s">发送</string>
+    <string name="biaoti">标题</string>
+    <string name="biaozhu">备注</string>
+</resources>

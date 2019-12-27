@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.itime.ui.home.homen"
+        android:label="@string/home"
+        tools:layout="@layout/home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.itime.ui.home.homen"
+        android:label="@string/biaoqian"
+        tools:layout="@layout/gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.itime.ui.home.homen"
+        android:label="@string/xiaobujian"
+        tools:layout="@layout/slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.itime.ui.home.homen"
+        android:label="@string/tools"
+        tools:layout="@layout/tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.itime.ui.home.homen"
+        android:label="@string/share"
+        tools:layout="@layout/share" />
+
+
+</navigation>
